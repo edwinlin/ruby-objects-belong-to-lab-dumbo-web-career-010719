@@ -1,5 +1,5 @@
 class Artist 
-  def initialize(name)
+  def initialize(name = "Beyonce")
     @name = name
   end
   def name
